@@ -1,0 +1,24 @@
+//
+//  FancyView.swift
+//  devslopes-social
+//
+//  Created by Wojtek on 26.11.2017.
+//  Copyright © 2017 Wojtek. All rights reserved.
+//
+
+import UIKit
+
+class FancyView: UIView {
+
+    override func awakeFromNib() {      // trzeba to zawsze dopisywać!
+        super.awakeFromNib()            //
+        
+        layer.shadowColor = UIColor(red: SHADOW_GRAY, green: SHADOW_GRAY, blue: SHADOW_GRAY, alpha: 0.6).cgColor // kolor cienia
+        layer.shadowOpacity = 0.8
+        layer.shadowRadius = 5.0 // długość rzutu ?
+        layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+    
+        
+    }
+
+}

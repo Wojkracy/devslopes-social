@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E41B2961FCA69A3006660AF /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41B2951FCA69A3006660AF /* FancyView.swift */; };
+		2E41B29B1FCA6A9D006660AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41B29A1FCA6A9D006660AF /* Constants.swift */; };
+		2E41B29D1FCA6D95006660AF /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41B29C1FCA6D95006660AF /* RoundBtn.swift */; };
+		2E41B29F1FCA70BD006660AF /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41B29E1FCA70BD006660AF /* FancyField.swift */; };
+		2E41B2A11FCA77ED006660AF /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E41B2A01FCA77ED006660AF /* FancyBtn.swift */; };
 		2EC0A0361FC50904006FD6A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0A0351FC50904006FD6A8 /* AppDelegate.swift */; };
 		2EC0A0381FC50904006FD6A8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0A0371FC50904006FD6A8 /* SignInVC.swift */; };
 		2EC0A03B1FC50904006FD6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC0A0391FC50904006FD6A8 /* Main.storyboard */; };
@@ -18,6 +23,11 @@
 
 /* Begin PBXFileReference section */
 		0BDD0A5A3CD97374BFA11185 /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E41B2951FCA69A3006660AF /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		2E41B29A1FCA6A9D006660AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2E41B29C1FCA6D95006660AF /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		2E41B29E1FCA70BD006660AF /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		2E41B2A01FCA77ED006660AF /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		2EC0A0321FC50904006FD6A8 /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC0A0351FC50904006FD6A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC0A0371FC50904006FD6A8 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -42,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E41B2971FCA6A68006660AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2E41B29A1FCA6A9D006660AF /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		2EC0A0291FC50904006FD6A8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +81,7 @@
 		2EC0A0341FC50904006FD6A8 /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				2E41B2971FCA6A68006660AF /* Utilities */,
 				2EC0A0491FC50A56006FD6A8 /* Model */,
 				2EC0A04A1FC50A5B006FD6A8 /* View */,
 				2EC0A04B1FC50A61006FD6A8 /* Controller */,
@@ -86,6 +105,10 @@
 		2EC0A04A1FC50A5B006FD6A8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E41B2951FCA69A3006660AF /* FancyView.swift */,
+				2E41B29C1FCA6D95006660AF /* RoundBtn.swift */,
+				2E41B29E1FCA70BD006660AF /* FancyField.swift */,
+				2E41B2A01FCA77ED006660AF /* FancyBtn.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,8 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E41B29F1FCA70BD006660AF /* FancyField.swift in Sources */,
 				2EC0A0381FC50904006FD6A8 /* SignInVC.swift in Sources */,
+				2E41B29D1FCA6D95006660AF /* RoundBtn.swift in Sources */,
 				2EC0A0361FC50904006FD6A8 /* AppDelegate.swift in Sources */,
+				2E41B2961FCA69A3006660AF /* FancyView.swift in Sources */,
+				2E41B29B1FCA6A9D006660AF /* Constants.swift in Sources */,
+				2E41B2A11FCA77ED006660AF /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
